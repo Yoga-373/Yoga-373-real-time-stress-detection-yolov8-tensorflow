@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stress Detection Dashboard</title>
+  <!-- 1) Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <style>
+    body {
+      background-color: #f0f2f5;
+      padding: 20px;
+    }
+    .section-card {
+      margin-bottom: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .card-header {
+      font-size: 1.25rem;
+    }
+    #result {
+      font-weight: bold;
+    }
+    iframe {
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="text-center text-primary mb-4">Stress Detection Dashboard</h1>
+
+    <!-- Webcam -->
+    <div class="card section-card">
+      <div class="card-header bg-primary text-white">
+          Live Webcam
+      </div>
+      <div class="card-body">
+        <button id="launchWebcam" class="btn btn-light me-2">Launch</button>
+        <button id="stopWebcam"  class="btn btn-light">Close</button>
+        <p id="webcamStatus" class="mt-2"></p>
+      </div>
+    </div>
+
+    <!-- Screen -->
+    <div class="card section-card">
+      <div class="card-header bg-success text-white">
+        🖥️ Live Screen
+      </div>
+      <div class="card-body">
+        <button id="launchScreen" class="btn btn-light me-2">Launch</button>
+        <button id="stopScreen"  class="btn btn-light">Close</button>
+        <p id="screenStatus" class="mt-2"></p>
+      </div>
+    </div>
+
+    <!-- Image Upload -->
+    <div class="card section-card">
+      <div class="card-header bg-warning text-dark">
+         Upload Image
+      </div>
+      <div class="card-body">
+        <form id="uploadForm" class="d-flex align-items-center">
+          <input
+            type="file"
+            id="imageInput"
+            name="file"
+            accept="image/*"
+            class="form-control me-2"
+          >
+          <button type="submit" class="btn btn-warning">Upload</button>
+        </form>
+        <div id="spinner" class="mt-2 hidden">
+          <div class="spinner-border text-warning" role="status"></div>
+          <span class="ms-2">Processing image…</span>
+        </div>
+        <img
+          id="uploadedPreview"
+          class="hidden img-thumbnail mt-2"
+          width="200"
+          alt="Uploaded preview"
+        >
+        <p id="result" class="mt-2"></p>
+      </div>
+    </div>
+
+    <!-- Report Generation -->
+    <div class="card section-card">
+      <div class="card-header bg-info text-white">
+         Generate Report
+      </div>
+      <div class="card-body">
+        <button id="generateReport" class="btn btn-info">Generate</button>
+        <div id="reportSpinner" class="mt-2 hidden">
+          <div class="spinner-border text-info" role="status"></div>
+          <span class="ms-2">Generating report…</span>
+        </div>
+        <p id="reportError" class="text-danger mt-2"></p>
+        <iframe
+          id="reportFrame"
+          class="hidden mt-3"
+          width="100%"
+          height="600"
+        ></iframe>
+        <a id="downloadLink" href="#" class="btn btn-success mt-3 hidden" download>Download Report</a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Your existing JS unchanged -->
+  <script>
+    async function callApi(path, statusElem) {
+      try {
+        const res = await fetch(path, { method: 'POST' });
+        const data = await res.json();
+        statusElem.textContent = data.status || data.error;
+      } catch (e) {
+        statusElem.textContent = 'Error: ' + e;
+      }
+    }
+
+    // Webcam buttons
+    document.getElementById('launchWebcam').onclick =
+      () => callApi('/start_webcam', document.getElementById('webcamStatus'));
+    document.getElementById('stopWebcam').onclick =
+      () => callApi('/stop_webcam', document.getElementById('webcamStatus'));
+
+    // Screen buttons
+    document.getElementById('launchScreen').onclick =
+      () => callApi('/start_screen', document.getElementById('screenStatus'));
+    document.getElementById('stopScreen').onclick =
+      () => callApi('/stop_screen', document.getElementById('screenStatus'));
+
+    // Image upload
+    document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const file = document.getElementById('imageInput').files[0];
+      if (!file) return alert('Please select an image');
+
+      const preview = document.getElementById('uploadedPreview');
+      preview.src = URL.createObjectURL(file);
+      preview.classList.remove('hidden');
+      document.getElementById('spinner').classList.remove('hidden');
+      document.getElementById('result').textContent = '';
+
+      const formData = new FormData();
+      formData.append('file', file);
+      try {
+        const res = await fetch('/api/upload', { method: 'POST', body: formData });
+        const data = await res.json();
+        document.getElementById('result').textContent = data.result;
+      } catch (err) {
+        document.getElementById('result').textContent = 'Error: ' + err;
+      } finally {
+        document.getElementById('spinner').classList.add('hidden');
+      }
+    });
+
+    // Report generation
+    document.getElementById('generateReport').onclick = async () => {
+      document.getElementById('reportSpinner').classList.remove('hidden');
+      document.getElementById('reportError').textContent = '';
+      const iframe = document.getElementById('reportFrame');
+      iframe.classList.add('hidden');
+
+      try {
+        const res = await fetch('/api/report');
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+
+        document.getElementById('reportSpinner').classList.add('hidden');
+        iframe.src = data.report_url + '?t=' + new Date().getTime();
+
+        iframe.classList.remove('hidden');
+
+        // Show the download link
+        const downloadLink = document.getElementById('downloadLink');
+        downloadLink.href = data.report_url + '?download=1';
+
+        downloadLink.classList.remove('hidden');
+
+      } catch (err) {
+        document.getElementById('reportSpinner').classList.add('hidden');
+        document.getElementById('reportError').textContent =
+          'Failed to generate report: ' + err;
+      }
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+2025-04-10 13:13:10,941 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 13:17:59,255 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 13:23:05,429 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 13:28:14,653 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 14:10:30,352 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 14:28:04,910 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:24:28,359 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:24:28,804 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:24:28,878 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:31:41,094 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:31:57,707 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:35:47,032 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:47:56,236 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 15:54:06,458 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:05:22,443 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:06:31,846 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:13:02,464 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:13:10,797 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:13:26,132 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:21:59,861 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:26:09,469 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:26:09,639 - INFO - Screen stress detection system started successfully
+2025-04-10 16:26:31,387 - INFO - Shutting down screen stress detection system
+2025-04-10 16:27:03,046 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:27:03,218 - INFO - Screen stress detection system started successfully
+2025-04-10 16:27:58,893 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 65
+2025-04-10 16:27:58,949 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 79
+2025-04-10 16:27:59,307 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 70
+2025-04-10 16:28:01,050 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-10 16:29:39,294 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 65
+2025-04-10 16:29:39,354 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 79
+2025-04-10 16:29:39,709 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 70
+2025-04-10 16:29:41,448 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-10 16:30:08,903 - INFO - Shutting down screen stress detection system
+2025-04-10 16:36:47,544 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:36:47,712 - INFO - Screen stress detection system started successfully
+2025-04-10 16:37:56,960 - INFO - Shutting down screen stress detection system
+2025-04-10 16:41:18,299 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:41:18,508 - INFO - Screen stress detection system started successfully
+2025-04-10 16:41:38,103 - INFO - Shutting down screen stress detection system
+2025-04-10 16:42:07,184 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-10 16:42:07,356 - INFO - Screen stress detection system started successfully
+2025-04-10 16:43:10,819 - INFO - Shutting down screen stress detection system
+2025-04-11 09:48:56,585 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 09:48:56,762 - INFO - Screen stress detection system started successfully
+2025-04-11 09:49:03,012 - INFO - Shutting down screen stress detection system
+2025-04-11 11:26:51,596 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 11:26:51,769 - INFO - Screen stress detection system started successfully
+2025-04-11 11:26:54,455 - INFO - Shutting down screen stress detection system
+2025-04-11 14:54:10,850 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 14:54:11,036 - INFO - Screen stress detection system started successfully
+2025-04-11 14:54:18,420 - INFO - Shutting down screen stress detection system
+2025-04-11 15:07:34,728 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 15:07:34,912 - INFO - Screen stress detection system started successfully
+2025-04-11 15:07:37,031 - INFO - Shutting down screen stress detection system
+2025-04-11 15:59:21,932 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 15:59:22,173 - INFO - Screen stress detection system started successfully
+2025-04-11 16:00:10,337 - INFO - Shutting down screen stress detection system
+2025-04-11 16:00:57,827 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:00:58,089 - INFO - Screen stress detection system started successfully
+2025-04-11 16:02:06,208 - INFO - Shutting down screen stress detection system
+2025-04-11 16:15:36,212 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:15:36,412 - INFO - Screen stress detection system started successfully
+2025-04-11 16:17:03,309 - INFO - Shutting down screen stress detection system
+2025-04-11 16:23:42,508 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:23:42,755 - INFO - Screen stress detection system started successfully
+2025-04-11 16:25:15,700 - INFO - Shutting down screen stress detection system
+2025-04-11 16:26:59,142 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:26:59,389 - INFO - Screen stress detection system started successfully
+2025-04-11 16:27:13,718 - INFO - Shutting down screen stress detection system
+2025-04-11 16:32:15,016 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:32:15,255 - INFO - Screen stress detection system started successfully
+2025-04-11 16:32:49,572 - INFO - Shutting down screen stress detection system
+2025-04-11 16:43:57,508 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:43:57,753 - INFO - Screen stress detection system started successfully
+2025-04-11 16:44:05,546 - INFO - Shutting down screen stress detection system
+2025-04-11 16:44:23,761 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-11 16:44:24,014 - INFO - Screen stress detection system started successfully
+2025-04-11 16:44:49,477 - INFO - Shutting down screen stress detection system
+2025-04-16 13:19:24,248 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-16 13:19:24,482 - INFO - Screen stress detection system started successfully
+2025-04-16 13:20:47,704 - INFO - Shutting down screen stress detection system
+2025-04-19 19:13:14,272 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-19 19:13:15,139 - INFO - Screen stress detection system started successfully
+2025-04-19 19:13:17,741 - INFO - Shutting down screen stress detection system
+2025-04-20 10:34:59,636 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-20 10:34:59,830 - INFO - Screen stress detection system started successfully
+2025-04-20 10:37:52,931 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 79
+2025-04-20 10:38:09,974 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 87
+2025-04-20 10:38:10,307 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:38:12,845 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 89
+2025-04-20 10:38:13,762 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 97
+2025-04-20 10:38:13,831 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 81
+2025-04-20 10:38:18,536 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 84
+2025-04-20 10:38:27,470 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:38:51,110 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 98
+2025-04-20 10:38:51,733 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 82
+2025-04-20 10:38:52,054 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:38:56,290 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 73
+2025-04-20 10:38:56,856 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 83
+2025-04-20 10:38:57,058 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 83
+2025-04-20 10:38:57,804 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 83
+2025-04-20 10:39:01,101 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 83
+2025-04-20 10:39:01,237 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:39:01,710 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:39:02,219 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 68
+2025-04-20 10:39:02,989 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:39:04,056 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 68
+2025-04-20 10:39:09,207 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 99
+2025-04-20 10:39:11,088 - INFO - Email sent: ALERT: HIGHLY STRESSED DETECTED, Stress Level: 98
+2025-04-20 10:39:11,475 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 77
+2025-04-20 10:39:12,818 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 66
+2025-04-20 10:39:15,298 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 69
+2025-04-20 10:39:31,797 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 73
+2025-04-20 10:40:31,778 - INFO - Email sent: ALERT: STRESSED DETECTED, Stress Level: 82
+2025-04-20 10:40:31,850 - INFO - Email sent: ALERT: MILDLY STRESSED DETECTED, Stress Level: 68
+2025-04-20 10:40:36,557 - INFO - Shutting down screen stress detection system
+2025-05-29 23:13:39,243 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-29 23:13:39,417 - INFO - Screen stress detection system started successfully
+2025-05-29 23:13:50,767 - INFO - Shutting down screen stress detection system
+2025-05-30 08:24:56,205 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-30 08:24:56,401 - INFO - Screen stress detection system started successfully
+2025-05-30 08:24:59,787 - INFO - Shutting down screen stress detection system
+2025-05-30 11:22:02,924 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-30 11:22:03,176 - INFO - Screen stress detection system started successfully
+2025-05-30 11:23:42,865 - INFO - Shutting down screen stress detection system
+2025-05-30 11:26:32,862 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-30 11:26:33,051 - INFO - Screen stress detection system started successfully
+2025-05-30 11:26:42,297 - INFO - Shutting down screen stress detection system
+2025-05-30 11:29:13,372 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-30 11:29:13,610 - INFO - Screen stress detection system started successfully
+2025-05-30 11:29:16,660 - INFO - Shutting down screen stress detection system
+2025-05-30 12:48:47,293 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-30 12:48:47,557 - INFO - Screen stress detection system started successfully
+2025-05-30 12:48:51,805 - INFO - Shutting down screen stress detection system
+2025-05-30 13:53:56,993 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-30 13:53:57,245 - INFO - Screen stress detection system started successfully
+2025-05-30 13:55:08,091 - INFO - Shutting down screen stress detection system

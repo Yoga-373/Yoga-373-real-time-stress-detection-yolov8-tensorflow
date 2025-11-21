@@ -1,0 +1,9 @@
+2025-04-10 13:20:27,734 - INFO - Parsing stress events from JSON file: /home/yoga/STRESS_DETECTION/STRESSED/logs/stress_events.json
+2025-04-10 13:20:27,737 - INFO - Successfully parsed 1 stress events from JSON
+2025-04-10 13:20:27,737 - INFO - Looking for stress images in: /home/yoga/STRESS_DETECTION/STRESSED/captured_stressed/
+2025-04-10 13:20:27,737 - INFO - Found 20 stress images
+2025-04-10 13:20:27,910 - INFO - Daily stress chart saved to: /home/yoga/STRESS_DETECTION/STRESSED/reports/daily_stress_events.png
+2025-04-10 13:20:28,098 - INFO - Hourly stress chart saved to: /home/yoga/STRESS_DETECTION/STRESSED/reports/hourly_stress_events.png
+2025-04-10 13:20:28,157 - INFO - Stress level distribution saved to: /home/yoga/STRESS_DETECTION/STRESSED/reports/stress_level_distribution.png
+2025-04-10 13:20:29,099 - INFO - Combined report created at: /home/yoga/STRESS_DETECTION/STRESSED/reports/stress_report_20250410_132028.png
+2025-04-10 13:20:29,101 - INFO - HTML report generated: /home/yoga/STRESS_DETECTION/STRESSED/reports/stress_report_20250410_132029.html
